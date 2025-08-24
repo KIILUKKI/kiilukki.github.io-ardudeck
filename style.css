@@ -1,0 +1,74 @@
+/* CyberDeck Black Neon Style */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #0a0a0f;
+  color: #00fff5;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  background: linear-gradient(90deg, #1c1f2b, #0b0c10);
+  border-bottom: 2px solid #ff00ff;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #00fff5;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #00fff5;
+  text-shadow: 0 0 5px #00fff5;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #1c1f2b, #0b0c10);
+  border: 2px solid #00fff5;
+  border-radius: 24px;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 15px #00fff5;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #00fff5;
+}
+
+.card:hover {
+  border-color: #ff00ff;
+  box-shadow: 0 0 20px #ff00ff, 0 0 30px #00fff5;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  border-top: 2px solid #00fff5;
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff;
+}
